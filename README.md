@@ -7,5 +7,5 @@ Deploying
 ---------
 
     $ heroku create --stack bamboo
-    $ heroku addons:add memcache:free
+    $ heroku addons:add memcache:5mb
     $ git push heroku master
