@@ -11,7 +11,7 @@ end
 
 group :production do
   gem "memcache-client"
-  gem 'memcached', "0.19.7"
+  gem 'memcached-northscale', :require => 'memcached'
 end
 
 # Use unicorn as the web server
